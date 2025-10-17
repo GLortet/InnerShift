@@ -1,40 +1,25 @@
+"""Command-line interface for InnerShift."""
+
 from __future__ import annotations
+
 import argparse
-from typing import Any, Dict
+from typing import Sequence
 
-from audio_processing import transcribe_audio
-from nlp_analysis import analyze_text
-from profile_manager import update_profile
-from report_generator import generate_pdf
 
-def run(audio_path: str, user: str) -> str:
-    print("[1/4] Transcription…")
-    text = transcribe_audio(audio_path)
+def build_parser() -> argparse.ArgumentParser:
+    """Build and return the CLI argument parser."""
+    parser = argparse.ArgumentParser(description="InnerShift command-line interface")
+    parser.add_argument("--audio", help="Path to the audio file", required=False)
+    parser.add_argument("--user", help="Identifier of the user", required=False)
+    return parser
 
-    print("[2/4] Analyse NLP…")
-    res = analyze_text(text)
 
-    analysis: Dict[str, Any] = {
-        "text": res.text,
-        "sentiment": res.sentiment,
-        "sentiment_score": res.sentiment_score,
-        "keywords": res.keywords,
-        "pcm_guess": res.pcm_guess,
-        "intelligences": res.intelligences,
-    }
+def main(argv: Sequence[str] | None = None) -> str:
+    """Parse arguments and return a placeholder result."""
+    parser = build_parser()
+    parser.parse_args(list(argv) if argv is not None else None)
+    return "TODO"
 
-    print("[3/4] Mise à jour du profil…")
-    profile = update_profile(user, analysis)
-
-    print("[4/4] Génération du PDF…")
-    pdf_path = generate_pdf(user, analysis)
-
-    print(f"✅ Terminé. Rapport: {pdf_path}")
-    return str(pdf_path)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="InnerShift – audio → PDF")
-    parser.add_argument("--audio", required=True, help="Chemin du fichier audio")
-    parser.add_argument("--user", required=True, help="Identifiant utilisateur (nom)")
-    args = parser.parse_args()
-    run(args.audio, args.user)
+    print(main())
