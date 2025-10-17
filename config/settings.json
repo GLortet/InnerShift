@@ -1,0 +1,12 @@
+{
+  "language": "fr",
+  "report": {
+    "title": "Rapport InnerShift",
+    "author": "InnerShift Engine",
+    "brand_color": "#2C7BE5"
+  },
+  "nlp": {
+    "keywords_top_k": 12,
+    "sentiment_model": "distilbert-base-uncased-finetuned-sst-2-english"
+  }
+}
