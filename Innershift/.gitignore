@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environnements
+venv/
+.env
+*.env
+poc_env/
+
+# Données locales
+data/audio/
+data/reports/pdf/
+data/*/tmp/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# Modèles lourds / bins
+models/*.pkl
+models/*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

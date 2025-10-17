@@ -1,0 +1,39 @@
+{
+    "id": "gilles_001",
+    "intelligences": {
+        "logico-mathématique": 0,
+        "linguistique": 3,
+        "kinesthésique": 0,
+        "musicale": 0,
+        "visuo-spatiale": 0,
+        "interpersonnelle": 0,
+        "intrapersonnelle": 0,
+        "naturaliste": 0
+    },
+    "historique": [
+        {
+            "timestamp": "2025-04-16T09:00:46.779716",
+            "texte": "Allo allo, ça y est. Là c'est un premier test pour vérifier que l'on reconnaît bien les sons dans les sons MP3.",
+            "mots_cles": [
+                "vérifier",
+                "allo",
+                "Allo",
+                "son",
+                "reconnaître",
+                "test",
+                "bien"
+            ],
+            "theme_dominant": "linguistique",
+            "scores_intelligences": {
+                "logico-mathématique": 0,
+                "linguistique": 3,
+                "kinesthésique": 0,
+                "musicale": 0,
+                "visuo-spatiale": 0,
+                "interpersonnelle": 0,
+                "intrapersonnelle": 0,
+                "naturaliste": 0
+            }
+        }
+    ]
+}
