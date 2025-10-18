@@ -1,9 +1,7 @@
 # InnerShift 🧠✨
 **L’IA qui t’aide à te comprendre avant de te changer.**
 
-InnerShift transforme un enregistrement audio en un **rapport PDF** (mots‑clés, tonalité émotionnelle, carto PCM* heuristique*, hypothèses d’intelligences multiples, recommandations).
-
-> ⚠️ PCM® est une marque. Ici, l’analyse PCM est **heuristique** (mappages textuels) et non une certification officielle.
+InnerShift transforme un enregistrement audio en un **rapport PDF** (mots‑clés, tonalité émotionnelle, carto de la manière de communiquer, hypothèses d’intelligences multiples, recommandations).
 
 ## 🚀 Démarrage rapide
 ```bash
