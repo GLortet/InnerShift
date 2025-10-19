@@ -4,7 +4,7 @@
 
 \*\*InnerShift\*\* est une application d’intelligence artificielle conçue pour aider chacun à \*\*mieux se comprendre avant de chercher à se changer\*\*.  
 
-Le projet combine la \*\*Process Communication Model® (PCM)\*\* et les \*\*Intelligences Multiples de Gardner\*\* afin d’analyser la parole, les émotions et les schémas cognitifs à partir d’un simple enregistrement audio.  
+Le projet combine l'analyse du langage *\* et les \*\*Intelligences Multiples de Gardner\*\* afin d’analyser la parole, les émotions et les schémas cognitifs à partir d’un simple enregistrement audio.  
 
 
 
@@ -18,7 +18,7 @@ Le projet combine la \*\*Process Communication Model® (PCM)\*\* et les \*\*Inte
 
 \- 🎤 \*\*Transcription automatique\*\* de la voix (modèle OpenAI Whisper)
 
-\- 🧠 \*\*Analyse NLP\*\* du texte (mots-clés, tonalité, PCM heuristique, intelligences multiples)
+\- 🧠 \*\*Analyse NLP\*\* du texte (mots-clés, tonalité, analyse du langage, intelligences multiples)
 
 \- 👤 \*\*Profil utilisateur dynamique\*\* (suivi des émotions et des dominantes cognitives)
 
